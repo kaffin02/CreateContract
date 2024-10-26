@@ -1,0 +1,30 @@
+contracts
+|
+|-- extension: "extensions that can be inherited by NON-upgradeable contracts"
+|   |-- interface: "interfaces of all extension contracts"
+|   |-- upgradeable: "extensions that can be inherited by upgradeable contracts"
+|   |-- [$prebuilt-category]: "legacy extensions written specifically for a prebuilt contract"
+|
+|-- base: "NON-upgradeable base contracts to build on top of"
+|   |-- interface: "interfaces for all base contracts"
+|   |--  upgradeable: "upgradeable base contracts to build on top of"
+|
+|-- prebuilt: "audited, ready-to-deploy thirdweb smart contracts"
+|   |-- interface: "interfaces for all prebuilt contracts"
+|   |--[$prebuilt-category]: "feature-based group of prebuilt contracts"
+|   |-- unaudited: "yet-to-audit thirdweb smart contracts"
+|       |-- [$prebuilt-category]: "feature-based group of prebuilt contracts"
+|
+|-- infra: "onchain infrastructure contracts"
+|   |-- interface: "interfaces for all infrastructure contracts"
+|
+|-- eip: "implementations of relevant EIP standards"
+|   |-- interface "all interfaces of relevant EIP standards"
+|
+|-- lib: "Solidity libraries"
+|
+|-- external-deps: "modified / copied over external dependencies"
+|   |-- openzeppelin: "modified / copied over openzeppelin dependencies"
+|   |-- chainlink: "modified / copied over chainlink dependencies"
+|
+|-- legacy-contracts: "maintained legacy thirdweb contracts"
